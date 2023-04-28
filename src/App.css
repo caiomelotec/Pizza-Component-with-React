@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.toggle-button {
+  color: rgb(66, 109, 211);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 10px;
+  display: inline-block;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.p-title {
+  font-weight: 600;
+  padding-left: 7px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.p-price {
+  padding-left: 7px;
+}
+
+.info-p {
+  font-size: 9px;
+  padding-left: 7px;
+}
+
+.p-button {
+  border-radius: 5px;
+  background-color: rgb(158, 209, 235);
+  padding-left: 12px;
+}
+
+.container {
+  /*border: solid 3px black;*/
+  border-radius: 10px;
+  display: inline-block;
+  background-color: rgb(110, 181, 217);
+  margin-right: 15px;
+}
+
+.pizza {
+  height: 150px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+
+}
+
+.pizza2 {
+  height: 150px;
+  width: 212px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+}
+
+.add {
+  background-color: rgb(7, 173, 7);
   color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px 5px 5px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sub {
+  background-color: rgb(190, 20, 20);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px 5px 5px;
 }
